@@ -1,4 +1,4 @@
-# Desafio React com TypeScript e Styled Components
+# Desafio React com TypeScript e Styled Components usando Vite
 
 ## 📝 Descrição do Desafio
 
