@@ -11,7 +11,7 @@ Neste desafio, você deve criar um e-commerce funcional utilizando React com Typ
 3. Criar uma interface estilizada usando `styled-components`.
 4. Criar um carrinho simples para adicionar ou remover produtos utilizando o local storage.
 
----
+## Sinta-se a vontade para manipular os arquivos da forma que melhor for conveniente!
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -121,8 +121,6 @@ As seguintes dependências já estão configuradas no arquivo `package.json`:
 
 Você só precisa rodar `yarn` para instalar tudo!
 
-Sinta-se a vontade para manipular os arquivos da forma que melhor for conveniente!
-
 ---
 
 ## 📜 Notas
@@ -133,6 +131,49 @@ Sinta-se a vontade para manipular os arquivos da forma que melhor for convenient
 
 ---
 
-## 🤝 Contribuição
+## 🤝 Como Contribuir
 
-Sinta-se à vontade para contribuir com melhorias!
+1. Faça um fork do repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/react-challenge.git
+   ```
+
+2. Crie uma branch para a sua funcionalidade ou correção:
+
+   ```bash
+   git checkout -b minha-feature
+   ```
+
+3. Faça as alterações desejadas e adicione os arquivos modificados:
+
+   ```bash
+   git add .
+   ```
+
+4. Faça um commit com uma mensagem clara sobre a alteração:
+
+   ```bash
+   git commit -m "Adiciona funcionalidade de exibição de detalhes do produto"
+   ```
+
+5. Envie as alterações para o seu repositório forkado:
+
+   ```bash
+   git push origin minha-feature
+   ```
+
+6. Abra um Pull Request (PR) no repositório principal. Na descrição do PR, ponha o seu nome e explique detalhadamente as mudanças realizadas.
+
+   Ex: [Tadeu Filho] - Utilizei a API para construir um e-commerce onde o valor...
+
+---
+
+### 💡 Dicas para um Pull Request bem-sucedido:
+
+- Verifique se suas alterações estão consistentes com o padrão do projeto.
+- Teste seu código localmente para evitar erros.
+- Adicione comentários no PR se houver trechos de código complexos.
+- Mantenha suas alterações limitadas à funcionalidade proposta na sua branch.
+
+Com essas dicas, seu Pull Request será mais claro e fácil de revisar!
