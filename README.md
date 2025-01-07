@@ -167,6 +167,11 @@ Você só precisa rodar `yarn` para instalar tudo!
 
    Ex: [Tadeu Filho] - Utilizei a API para construir um e-commerce onde o valor...
 
+7. Siga esse Template para maior fidelidade. Não se preocupe em fazer tudo que está na tela, mas faça o melhor que puder.
+   ```bash
+   https://www.figma.com/design/Aha5XhV3W1JgUbQWC9achY/Full-E-Commerce-Website-UI-UX-Design-(Community)?node-id=34-213&t=dfC9wF4QeSfepn7k-0
+   ```
+
 ---
 
 ### 💡 Dicas para um Pull Request bem-sucedido:
