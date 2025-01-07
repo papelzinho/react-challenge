@@ -9,7 +9,7 @@ Neste desafio, você deve criar um e-commerce funcional utilizando React com Typ
 1. Listar produtos de uma API gratuita.
 2. Exibir os detalhes básicos de cada produto (nome, preço, imagem, etc.).
 3. Criar uma interface estilizada usando `styled-components`.
-4. Criar um carrinho simples para adicionar ou remover produtos utilizando o localStorage.
+4. Criar um carrinho simples para adicionar ou remover produtos utilizando o local storage.
 
 ---
 
@@ -17,6 +17,7 @@ Neste desafio, você deve criar um e-commerce funcional utilizando React com Typ
 
 - React
 - TypeScript
+- Vite
 - Styled Components
 - Fetch (para consumo da API)
 - Yarn (gerenciador de pacotes)
@@ -59,12 +60,12 @@ yarn -v  # Versão do Yarn
 3. Inicie o servidor de desenvolvimento:
 
    ```bash
-   yarn start
+   yarn run dev
    ```
 
 4. Acesse no navegador:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ---
@@ -104,7 +105,7 @@ desafio-ecommerce/
 - [x] Consumir a API [Fake Store API](https://fakestoreapi.com/).
 - [x] Listar produtos na página inicial.
 - [x] Estilizar a interface usando `styled-components`.
-- [x] Adicionar funcionalidade de carrinho básico.
+- [x] Adicionar funcionalidade de carrinho básico utilizando o local storage.
 
 ---
 
@@ -113,11 +114,14 @@ desafio-ecommerce/
 As seguintes dependências já estão configuradas no arquivo `package.json`:
 
 - React
+- Vite
 - TypeScript
 - Styled Components
 - Fetch
 
 Você só precisa rodar `yarn` para instalar tudo!
+
+Sinta-se a vontade para manipular os arquivos da forma que melhor for conveniente!
 
 ---
 
