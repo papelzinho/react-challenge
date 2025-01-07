@@ -46,8 +46,8 @@ yarn -v  # Versão do Yarn
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/desafio-ecommerce.git
-   cd desafio-ecommerce
+   git clone https://github.com/papelzinho/react-challenge.git
+   cd react-challenge
    ```
 
 2. Instale as dependências:
@@ -87,11 +87,14 @@ desafio-ecommerce/
 │   │   └── api.ts
 │   ├── styles/
 │   │   └── globalStyles.ts
+│   ├── App.css
 │   ├── App.tsx
-│   └── index.tsx
+│   ├── index.css
+│   └── Main.tsx
 ├── package.json
 ├── yarn.lock
-└── README.md
+├── README.md
+└── ...
 ```
 
 ---
@@ -112,7 +115,7 @@ As seguintes dependências já estão configuradas no arquivo `package.json`:
 - React
 - TypeScript
 - Styled Components
-- Axios
+- Fetch
 
 Você só precisa rodar `yarn` para instalar tudo!
 
