@@ -1,8 +1,14 @@
-import React from "react";
 import Home from "./Pages/Home/Home";
+import HeaderComponent from "./components/Header/Header";
+import GlobalStyle from "./GlobalStyle.ts";
+
 
 const App = () => {
-    return <Home />;
+    return <>
+        <GlobalStyle />
+        <HeaderComponent />
+        <Home />
+    </>;
 };
 
 export default App;

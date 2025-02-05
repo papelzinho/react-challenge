@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Image } from "./ProductCard.styles";
+import { Card, Image, Button } from "./ProductCard.styles";
 
 interface ProductCardProps {
     product: {
@@ -16,6 +16,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             <Image src={product.image} alt={product.title} />
             <h3>{product.title}</h3>
             <p>${product.price}</p>
+            <Button>Adicionar ao Carrinho</Button>
         </Card>
     );
 };
