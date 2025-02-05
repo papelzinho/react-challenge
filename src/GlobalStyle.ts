@@ -7,7 +7,6 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    overflow-x: hidden; // Previne o scroll horizontal
   }
 
   *, *::before, *::after {
