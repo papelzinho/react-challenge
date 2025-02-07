@@ -5,7 +5,7 @@ import { Container, Section, ShowAllButton } from "./Home.styles";
 import ProductCard from '../../components/ProductCard/ProductCard';
 
 const Home = () => {
-    const [products, setProducts] = useState<{ id: number; [key: string]: any }[]>([]);
+    const [products, setProducts] = useState<{ id: number; title: string; price: number; image: string }[]>([]);
     const [showAll, setShowAll] = useState(false);
 
     useEffect(() => {
@@ -20,7 +20,7 @@ const Home = () => {
 
     return (
         <>
-            <Section>
+            <Section id="produtos">
                 <h2>Todos os Itens</h2>
                 <Container>
                     {visibleProducts.map((product) => (
@@ -56,6 +56,11 @@ const Home = () => {
                         <ProductCard key={product.id} product={product} />
                     ))}
                 </Container>
+            </Section>
+
+            <Section>
+                <h2>Sobre</h2>
+                
             </Section>
         </>
     );

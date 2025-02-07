@@ -35,6 +35,9 @@ export const CartProvider: React.FC<CartProviderProps> = ({children}) => {
     }, [cart]);
 
     const addToCart = (product: Product) => {
+        if (cart.find((item) => item.id === product.id)) {
+            return;
+        }
         setCart([...cart, product]);
     };
 

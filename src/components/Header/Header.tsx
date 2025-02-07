@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Header, Title, Nav, Hamburger, MobileMenu } from "./Header.styles";
+import { Link } from "react-router-dom";
 
 const HeaderComponent: React.FC = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -8,12 +9,16 @@ const HeaderComponent: React.FC = () => {
         <Header>
             <Title>Eccomerce Jfdeev</Title>
             <Nav>
-                <a href="#">Início</a>
-                <a href="#">Produtos</a>
+                <Link to={"/"}>
+                    <a href="#">Início</a>
+                </Link>
+                <a href="#produtos">Produtos</a>
                 <a href="#">Contato</a>
-                <a href="/cart"><span className="material-symbols-outlined">
-                                    shopping_cart
-                                </span></a>
+                <Link to={"/carrinho"}>
+                    <a><span className="material-symbols-outlined">
+                            shopping_cart
+                        </span></a>
+                </Link>
                 <input type="text" placeholder="Buscar..." />
             </Nav>
 
@@ -23,9 +28,13 @@ const HeaderComponent: React.FC = () => {
 
             <MobileMenu isOpen={menuOpen}>
                 <a href="#">Início</a>
-                <a href="#">Sobre</a>
+                <a href="#produtos">Produtos</a>
                 <a href="#">Contato</a>
-                <a href="/cart"></a>
+                <Link to={"/carrinho"}>
+                    <a><span className="material-symbols-outlined">
+                            shopping_cart
+                        </span></a>
+                </Link>
                 <input type="text" placeholder="Buscar..." />
             </MobileMenu>
             
