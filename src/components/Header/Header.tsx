@@ -8,9 +8,9 @@ const HeaderComponent: React.FC = () => {
         <Header>
             <Title>Eccomerce Jfdeev</Title>
             <Nav>
-                <a href="#">Início</a>
-                <a href="#">Produtos</a>
-                <a href="#">Contato</a>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About</a>
                 <a href="/cart"><span className="material-symbols-outlined">
                                     shopping_cart
                                 </span></a>
@@ -22,10 +22,12 @@ const HeaderComponent: React.FC = () => {
             </Hamburger>
 
             <MobileMenu isOpen={menuOpen}>
-                <a href="#">Início</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-                <a href="/cart"></a>
+                <a href="#">Home</a>
+                <a href="#products">Products</a>
+                <a href="#">About</a>
+                <a href="/cart"><span className="material-symbols-outlined">
+                                    shopping_cart
+                                </span></a>
                 <input type="text" placeholder="Buscar..." />
             </MobileMenu>
             

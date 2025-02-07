@@ -20,7 +20,7 @@ const Home = () => {
 
     return (
         <>
-            <Section>
+            <Section id="products">
                 <h2>Todos os Itens</h2>
                 <Container>
                     {visibleProducts.map((product) => (
