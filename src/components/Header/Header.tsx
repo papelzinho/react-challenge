@@ -9,16 +9,12 @@ const HeaderComponent: React.FC = () => {
         <Header>
             <Title>Eccomerce Jfdeev</Title>
             <Nav>
-                <Link to={"/"}>
-                    <a href="#">Início</a>
-                </Link>
-                <a href="#produtos">Produtos</a>
-                <a href="#">Contato</a>
-                <Link to={"/carrinho"}>
-                    <a><span className="material-symbols-outlined">
-                            shopping_cart
-                        </span></a>
-                </Link>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About</a>
+                <a href="/cart"><span className="material-symbols-outlined">
+                                    shopping_cart
+                                </span></a>
                 <input type="text" placeholder="Buscar..." />
             </Nav>
 
@@ -35,6 +31,12 @@ const HeaderComponent: React.FC = () => {
                             shopping_cart
                         </span></a>
                 </Link>
+                <a href="#">Home</a>
+                <a href="#products">Products</a>
+                <a href="#">About</a>
+                <a href="/cart"><span className="material-symbols-outlined">
+                                    shopping_cart
+                                </span></a>
                 <input type="text" placeholder="Buscar..." />
             </MobileMenu>
             
