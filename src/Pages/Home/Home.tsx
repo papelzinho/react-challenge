@@ -20,7 +20,7 @@ const Home = () => {
 
     return (
         <>
-            <Section id="produtos">
+            <Section id="products">
                 <h2>Todos os Itens</h2>
                 <Container>
                     {visibleProducts.map((product) => (
@@ -58,7 +58,7 @@ const Home = () => {
                 </Container>
             </Section>
 
-            <Section>
+            <Section id="about">
                 <h2>Sobre</h2>
                 
             </Section>

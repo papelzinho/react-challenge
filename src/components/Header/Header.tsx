@@ -9,12 +9,15 @@ const HeaderComponent: React.FC = () => {
         <Header>
             <Title>Eccomerce Jfdeev</Title>
             <Nav>
-                <a href="#">Home</a>
-                <a href="#">Products</a>
-                <a href="#">About</a>
-                <a href="/cart"><span className="material-symbols-outlined">
-                                    shopping_cart
-                                </span></a>
+                <Link to={"/"}>Home</Link>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                
+                <Link to={"/carrinho"}>
+                    <a><span className="material-symbols-outlined">
+                            shopping_cart
+                        </span></a>
+                </Link>
                 <input type="text" placeholder="Buscar..." />
             </Nav>
 
@@ -24,19 +27,13 @@ const HeaderComponent: React.FC = () => {
 
             <MobileMenu isOpen={menuOpen}>
                 <a href="#">Início</a>
-                <a href="#produtos">Produtos</a>
-                <a href="#">Contato</a>
+                <a href="#products">Produtos</a>
+                <a href="#about">About</a>
                 <Link to={"/carrinho"}>
                     <a><span className="material-symbols-outlined">
                             shopping_cart
                         </span></a>
                 </Link>
-                <a href="#">Home</a>
-                <a href="#products">Products</a>
-                <a href="#">About</a>
-                <a href="/cart"><span className="material-symbols-outlined">
-                                    shopping_cart
-                                </span></a>
                 <input type="text" placeholder="Buscar..." />
             </MobileMenu>
             

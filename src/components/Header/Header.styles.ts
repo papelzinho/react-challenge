@@ -91,20 +91,20 @@ const MobileMenu = styled.div<{ isOpen: boolean }>`
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #f7f5f4; /* Cor de fundo combinando com o header */
+    background-color: #f7f5f4; 
     width: 200px;
     padding: 1rem;
     gap: 1rem;
     box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.3);
 
     a {
-        color: black; /* Cor do texto para mobile */
+        color: black; 
         text-decoration: none;
         padding: 0.5rem;
-        border-bottom: 1px solid #ddd; /* Cor da borda mais suave */
+        border-bottom: 1px solid #ddd; 
 
         &:hover {
-            background-color: #ddd; /* Cor de fundo ao passar o mouse */
+            background-color: #ddd; 
         }
     }
 `;

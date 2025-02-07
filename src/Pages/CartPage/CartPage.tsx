@@ -32,7 +32,7 @@ const CartPage = () => {
                             </Item>
                         ))}
                     </List>
-                    <p>Total: ${cart.reduce((acc, item) => acc + item.price, 0)}</p>
+                    <p>Total: R${cart.reduce((acc, item) => acc + item.price, 0).toFixed(2)}</p>
                     <button>Finalizar Compra</button>
                     <button onClick={clearCart}>Limpar Carrinho</button>
                 </>
