@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import { Header, Title, Nav, Hamburger, MobileMenu } from "./Header.styles";
 
-interface HeaderProps{
-    cartItemCount: number;
-}
-
-const HeaderComponent: React.FC<HeaderProps> = ({ cartItemCount }) => {
+const HeaderComponent: React.FC = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
@@ -15,7 +11,9 @@ const HeaderComponent: React.FC<HeaderProps> = ({ cartItemCount }) => {
                 <a href="#">Início</a>
                 <a href="#">Produtos</a>
                 <a href="#">Contato</a>
-                <a href="/cart">Carrinho ({cartItemCount})</a>
+                <a href="/cart"><span className="material-symbols-outlined">
+                                    shopping_cart
+                                </span></a>
                 <input type="text" placeholder="Buscar..." />
             </Nav>
 
@@ -27,7 +25,7 @@ const HeaderComponent: React.FC<HeaderProps> = ({ cartItemCount }) => {
                 <a href="#">Início</a>
                 <a href="#">Sobre</a>
                 <a href="#">Contato</a>
-                <a href="/cart">Carrinho ({cartItemCount})</a>
+                <a href="/cart"></a>
                 <input type="text" placeholder="Buscar..." />
             </MobileMenu>
             
