@@ -26,9 +26,11 @@ const HeaderComponent: React.FC = () => {
             </Hamburger>
 
             <MobileMenu isOpen={menuOpen}>
-                <a href="#">Início</a>
-                <a href="#products">Produtos</a>
+                
+            <Link to={"/"}>Home</Link>
+                <a href="#products">Products</a>
                 <a href="#about">About</a>
+                
                 <Link to={"/carrinho"}>
                     <a><span className="material-symbols-outlined">
                             shopping_cart

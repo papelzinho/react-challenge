@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { Container, List, Item, Info} from './CartPage.styles'
+import { Link } from "react-router-dom";
 
 const CartPage = () => {
 
@@ -15,6 +16,11 @@ const CartPage = () => {
    
     return (
         <Container>
+            <Link to="/">
+                <span className="material-symbols-outlined">
+                    arrow_back
+                </span>
+            </Link>
             <h2>Seu Carrinho</h2>
             {cart.length === 0 ? (
                 <p>Seu Carrinho esta vazio</p>
